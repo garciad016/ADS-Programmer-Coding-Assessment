@@ -1,7 +1,9 @@
 """
 ClinicalTrialDataAgent - Roche ADS Q4 coding assessment.
 
-Reference: https://docs.langchain.com/oss/javascript/integrations/llms/openai
+Reference: 
+- https://docs.langchain.com/oss/javascript/integrations/llms/openai
+- https://pydantic.dev/docs/validation/latest/concepts/models/
 
 Routes natural-language AE questions to the right CDISC column
 (AESEV/AETERM/AESOC) using an LLM, then runs a pandas filter.
