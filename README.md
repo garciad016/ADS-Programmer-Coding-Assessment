@@ -44,3 +44,6 @@ install.packages(c(
 ```
 
 Open the `.Rproj` inside a question folder, then run the script(s). Working directory sets automatically and all outputs land alongside the script.
+
+
+## Youtube Playlist Link: https://www.youtube.com/watch?v=WrSMHc4lpgA&list=PL9S_qvAAoDPRXkwetEax7m7pgSXshKwsQ
