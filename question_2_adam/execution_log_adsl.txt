@@ -1,0 +1,27 @@
+Question 2: ADSL Execution Log
+Run time:  2026-04-20 03:45:32 
+admiral:   1.4.1 
+
+Warning message:
+Check duplicates: the dataset which consists of all records selected for any of the events defined by `events` contains duplicate records with respect to `STUDYID`, `USUBJID`, `LSTAVLDT`, and `event_nr`
+ℹ Run `admiral::get_duplicates_dataset()` to access the duplicate records 
+
+Execution Summary
+ADSL created:  306 rows x 38 cols
+
+AGEGR9 distribution:
+
+    >50 18 - 50 
+    305       1 
+
+ITTFL distribution:
+
+  Y 
+306 
+
+Derivation population checks (non-NA counts):
+  TRTSDTM:  254 / 306 
+  TRTSTMF:  254 / 306 
+  LSTAVLDT: 289 / 306 
+
+Script completed without errors.

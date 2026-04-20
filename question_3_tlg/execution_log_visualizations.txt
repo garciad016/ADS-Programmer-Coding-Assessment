@@ -1,0 +1,42 @@
+Question 3 Task 2: AE Visualizations Execution Log
+Run time:  2026-04-20 03:41:24 
+ggplot2:   4.0.2 
+
+Plot 1 saved to ae_severity_by_treatment.png
+`height` was translated to `width`.
+Plot 2 saved to top10_ae_with_ci.png
+
+Execution Summary
+ADSL subjects (treated, post-SF filter): 254 
+TEAE records (TRTEMFL == Y):             1122 
+
+Plot 1 - severity by treatment (ACTARM x AESEV counts):
+# A tibble: 9 × 3
+  ACTARM               AESEV        n
+  <chr>                <fct>    <int>
+1 Placebo              MILD       210
+2 Placebo              MODERATE    65
+3 Placebo              SEVERE       6
+4 Xanomeline High Dose MILD       286
+5 Xanomeline High Dose MODERATE   118
+6 Xanomeline High Dose SEVERE      10
+7 Xanomeline Low Dose  MILD       232
+8 Xanomeline Low Dose  MODERATE   170
+9 Xanomeline Low Dose  SEVERE      25
+
+Plot 2 - top 10 AEs (incidence % with 95% CI):
+# A tibble: 10 × 5
+   AETERM                      n_subjects   pct ci_lower ci_upper
+   <fct>                            <int> <dbl>    <dbl>    <dbl>
+ 1 PRURITUS                            54 21.3     16.4      26.8
+ 2 APPLICATION SITE PRURITUS           50 19.7     15.0      25.1
+ 3 ERYTHEMA                            36 14.2     10.1      19.1
+ 4 APPLICATION SITE ERYTHEMA           30 11.8      8.11     16.4
+ 5 RASH                                26 10.2      6.80     14.6
+ 6 APPLICATION SITE DERMATITIS         21  8.27     5.19     12.4
+ 7 APPLICATION SITE IRRITATION         21  8.27     5.19     12.4
+ 8 DIZZINESS                           21  8.27     5.19     12.4
+ 9 DIARRHOEA                           17  6.69     3.95     10.5
+10 SINUS BRADYCARDIA                   17  6.69     3.95     10.5
+
+Script completed without errors.

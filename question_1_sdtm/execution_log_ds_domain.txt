@@ -1,0 +1,48 @@
+Question 1: DS Domain Execution Log
+Run time:  2026-04-20 03:44:42 
+sdtm.oak:  0.2.0 
+
+G3;ℹ These terms could not be mapped per the controlled terminology: "Randomized", "Completed", "Study Terminated by Sponsor", "Screen Failure", and "Lost to Follow-Up".
+gG3;ℹ These terms could not be mapped per the controlled terminology: "Unscheduled 6.1", "Unscheduled 1.1", "Unscheduled 5.1", "Unscheduled 4.1", "Unscheduled 8.2", and "Unscheduled 13.1".
+gG3;ℹ These terms could not be mapped per the controlled terminology: "Unscheduled 6.1", "Unscheduled 1.1", "Unscheduled 5.1", "Unscheduled 4.1", "Unscheduled 8.2", and "Unscheduled 13.1".
+g
+Execution Summary
+DS domain created:  850 rows x 12 cols
+Unique subjects:    306 
+
+DSCAT distribution (confirms all 3 conditional branches fired):
+
+ DISPOSITION EVENT        OTHER EVENT PROTOCOL MILESTONE 
+               306                290                254 
+
+Date parsing check (should be 0 NAs if formats matched):
+  DSSTDTC NAs: 0 
+  DSDTC NAs:   0 
+
+VISITNUM type check (should be numeric per SDTMIG):
+  class: numeric 
+  NAs:   0 
+
+DSSTDY NA check (expected non-zero for screen failures):
+  Total NAs:          52 
+  SCREEN FAILURE NAs: 52 
+
+Script completed without errors.
+As if formats matched):
+  DSSTDTC NAs: 0 
+  DSDTC NAs:   0 
+
+VISITNUM type check (should be numeric per SDTMIG):
+  class: numeric 
+  NAs:   0 
+
+DSSTDY NA check (expected non-zero for screen failures):
+  Total NAs:          52 
+  SCREEN FAILURE NAs: 52 
+
+Script completed without errors.
+
+  Total NAs:          52 
+  SCREEN FAILURE NAs: 52 
+
+Script completed without errors.
